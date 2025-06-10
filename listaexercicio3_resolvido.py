@@ -28,7 +28,7 @@ st.header("Lista de exercicios 3")
 
 import pandas as pd
 
-arquivo = "projetos.csv"
+arquivo = "https://raw.githubusercontent.com/Lucasrombach/lista3/refs/heads/main/projetos.csv"
 df = pd.read_csv(arquivo, sep=';')
 st.dataframe(df.head(len(df)))
 
